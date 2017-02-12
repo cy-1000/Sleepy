@@ -22,8 +22,8 @@ public class TimerActivity extends AppCompatActivity {
     public void goToPlayback(View view) {
         Intent intentPlayback = new Intent(this, PlaybackActivity.class);
         EditText editText = (EditText) findViewById(R.id.editText3);
-        long time = Long.parseLong(editText.getText().toString());
-        player.setTime(time*60); //seconds for countdown method.
+        int time = Integer.parseInt(editText.getText().toString());
+        player.setTime(time*60);
         //Pass object to the next activity
         intentPlayback.putExtra("Player", player);
         startActivity(intentPlayback);

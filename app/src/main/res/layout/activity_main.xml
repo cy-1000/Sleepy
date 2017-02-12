@@ -51,5 +51,14 @@
         android:id="@+id/why"
         android:onClick="goToInfo"/>
 
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/printStatement" />
+
 
 </RelativeLayout>

@@ -9,10 +9,12 @@ import java.io.Serializable;
 public class Player implements Serializable {
 
     String audioName;
-    long time;
+    int time;
+    boolean timerStarted;
 
 
-    public Player(String audioName, long time){
+
+    public Player(String audioName, int time){
         this.audioName = audioName;
         this.time = time;
     }
@@ -28,10 +30,17 @@ public class Player implements Serializable {
     public String getAudioName(){
         return audioName;
     }
-    public void setTime(long time){
+    public void setTime(int time){
         this.time = time;
     }
-    public long getTime(){
+    public int getTime(){
         return time;
+    }
+
+    public boolean isTimerStarted(){
+        return timerStarted;
+    }
+    public void setTimerStarted(boolean ans){
+        timerStarted = ans;
     }
 }
