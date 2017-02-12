@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_four_seven_eight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ngc.sleepy.FourSevenEightActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/step1"
+        android:text="1. Place the tip of your tongue against the ridge of tissue just behind your upper front teeth, and keep it there through the entire exercise."
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="2. Exhale completely through your mouth, making a whoosh sound."
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/step2" />
+
+    <TextView
+        android:text="3. Close your mouth and inhale quietly through your nose to a mental count of four."
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:id="@+id/step3" />
+
+    <TextView
+        android:text="4. Close your mouth and inhale quietly through your nose to a mental count of four."
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/step4" />
+
+    <TextView
+        android:text="5. Exhale completely through your mouth, making a whoosh sound to a count of eight."
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step4"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/step5" />
+
+    <TextView
+        android:text="6. Repeat the cycle three more times for a total of four breaths."
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/step5"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/step6" />
+
+</RelativeLayout>

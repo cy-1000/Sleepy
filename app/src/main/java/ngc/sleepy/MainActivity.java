@@ -36,16 +36,22 @@ public class MainActivity extends AppCompatActivity {
         //create a Player object and send to next activity
         intentMusic.putExtra("Player", player);
         startActivity(intentMusic);
-
     }
 
+    public void goToMethods(View view) {
+        Intent intentMethods = new Intent(this, MethodsActivity.class);
+        startActivity(intentMethods);
+    }
+  
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event)
     {
         return true;
     }
-
-
-
+  
+    public void goToInfo(View view) {
+        Intent intentInfo = new Intent(this, InfoActivity.class);
+        startActivity(intentInfo);
+    }
 
 }

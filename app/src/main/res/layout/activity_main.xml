@@ -14,7 +14,7 @@
         android:text="Sleepy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:id="@+id/SleepyText"
@@ -30,6 +30,26 @@
         android:layout_marginTop="92dp"
         android:id="@+id/GetStarted"
         android:onClick="goToMusic"/>
+
+    <Button
+        android:text="How to Fall Asleep?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GetStarted"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:onClick="goToMethods"
+        android:id="@+id/methods" />
+
+    <Button
+        android:text="Why?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/methods"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:id="@+id/why"
+        android:onClick="goToInfo"/>
 
     <TextView
         android:text="TextView"
