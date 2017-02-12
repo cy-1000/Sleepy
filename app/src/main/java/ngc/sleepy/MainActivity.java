@@ -26,10 +26,16 @@ public class MainActivity extends AppCompatActivity {
         Player player = new Player();
         intentMusic.putExtra("Player", player);
         startActivity(intentMusic);
-
     }
 
+    public void goToMethods(View view) {
+        Intent intentMethods = new Intent(this, MethodsActivity.class);
+        startActivity(intentMethods);
+    }
 
-
+    public void goToInfo(View view) {
+        Intent intentInfo = new Intent(this, InfoActivity.class);
+        startActivity(intentInfo);
+    }
 
 }

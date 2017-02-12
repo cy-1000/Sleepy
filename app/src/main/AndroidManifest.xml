@@ -18,7 +18,12 @@
         </activity>
         <activity android:name=".MusicActivity" />
         <activity android:name=".TimerActivity" />
-        <activity android:name=".PlaybackActivity"></activity>
+        <activity android:name=".PlaybackActivity" />
+        <activity android:name=".MethodsActivity" />
+        <activity android:name=".FourSevenEightActivity" />
+        <activity android:name=".MethodTwoActivity" />
+        <activity android:name=".MethodThreeActivity" />
+        <activity android:name=".InfoActivity"></activity>
     </application>
 
 </manifest>
