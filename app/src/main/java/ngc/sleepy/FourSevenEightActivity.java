@@ -1,9 +1,10 @@
 package ngc.sleepy;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class FourSevenEightActivity extends AppCompatActivity {
+public class FourSevenEightActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

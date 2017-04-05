@@ -1,11 +1,12 @@
 package ngc.sleepy;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 
-public class MethodsActivity extends AppCompatActivity {
+public class MethodsActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

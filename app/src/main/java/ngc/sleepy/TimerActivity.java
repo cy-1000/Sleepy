@@ -1,12 +1,13 @@
 package ngc.sleepy;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class TimerActivity extends AppCompatActivity {
+public class TimerActivity extends Activity {
 
     Player player;
     @Override

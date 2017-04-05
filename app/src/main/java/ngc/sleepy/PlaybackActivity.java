@@ -11,7 +11,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
 
-public class PlaybackActivity extends AppCompatActivity {
+public class PlaybackActivity extends Activity {
 
     Player player;
     MediaPlayer media;
@@ -30,6 +30,7 @@ public class PlaybackActivity extends AppCompatActivity {
         player.setTimerStarted(true);
         countdown(time,countdown);
         media = MediaPlayer.create(PlaybackActivity.this, R.raw.naturesounds);
+        media.setLooping(true);
         media.start(); // no need to call prepare(); create() does that for you
 
 
