@@ -1,5 +1,6 @@
 package ngc.sleepy;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,7 +15,7 @@ import static android.content.Intent.FLAG_ACTIVITY_REORDER_TO_FRONT;
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     Player player;
     @Override
